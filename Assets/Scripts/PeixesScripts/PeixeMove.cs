@@ -5,10 +5,11 @@ public class PeixeMove : MonoBehaviour
     [SerializeField] private float speed;
     public Transform alvo;
     public bool pegado = false;
+    [SerializeField] private float tempoDeVida;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Destroy(this.gameObject, 5);
+        Destroy(this.gameObject,tempoDeVida);
     }
 
     // Update is called once per frame

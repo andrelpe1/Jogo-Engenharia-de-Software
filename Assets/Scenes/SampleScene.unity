@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44fd0f6c7792d40459961cc071600044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempo: 4
+  tempo: 7
   x: 10
   y: -2
   peixe: {fileID: 6012852202199183761, guid: 908793d07d55d4643847090070f2761d, type: 3}
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4096dc0b472c3d547bc771775c3fc9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempo: 4
+  tempo: 7
   x: -10
   y: -2
   lixo: {fileID: 2390766485815037538, guid: 0a5e81838cc67ec41b7820bd84e58c31, type: 3}
