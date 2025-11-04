@@ -7,12 +7,21 @@ public class ScoreCounter : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        score_manager = GameObject.FindGameObjectWithTag("Score").GetComponent<Score_ManagerScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Moeda"))
+        {
+            score_manager.score_ += 1;
+            Destroy(collision.gameObject);
+        }
     }
 }

@@ -11,6 +11,7 @@ TagManager:
   - peixe
   - Score
   - p3
+  - Moeda
   layers:
   - Default
   - TransparentFX

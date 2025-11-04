@@ -36,11 +36,11 @@ public class SpawnLixo : MonoBehaviour
     void SpawnObstacle()
     {
         GameObject lixoDireita = Instantiate(lixo, new Vector3(x, y, 0), Quaternion.identity);
-        lixoDireita.GetComponent<LixoMove>().alvo = GameObject.FindGameObjectWithTag("p1").transform;
+        //lixoDireita.GetComponent<LixoMove>().alvo = GameObject.FindGameObjectWithTag("p1").transform;
 
         // Instancia à esquerda
         GameObject lixoEsquerda = Instantiate(lixo, new Vector3(-x, y, 0), Quaternion.identity);
-        lixoEsquerda.GetComponent<LixoMove>().alvo = GameObject.FindGameObjectWithTag("p2").transform;
+        //lixoEsquerda.GetComponent<LixoMove>().alvo = GameObject.FindGameObjectWithTag("p2").transform;
     }
 
 

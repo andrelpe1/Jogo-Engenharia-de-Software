@@ -3,7 +3,7 @@ using UnityEngine.UI;
 public class Score_ManagerScript : MonoBehaviour
 {
     public Text pontuacao;
-    public int score_;
+    public int score_= 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

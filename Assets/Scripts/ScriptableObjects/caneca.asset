@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ca596a184109c428d21d9932a0a888, type: 3}
+  m_Name: caneca
+  m_EditorClassIdentifier: 
+  trash_icon: {fileID: -8147040041650980506, guid: 2adfda58bbbd8574686434e3bc5845de, type: 3}
+  trash_animation: {fileID: -135745586327962539, guid: 2adfda58bbbd8574686434e3bc5845de, type: 3}
+  trash_name: caneca

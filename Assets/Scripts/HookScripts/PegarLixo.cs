@@ -75,7 +75,7 @@ public class PegarLixo : MonoBehaviour
             descendo = false;
             subindo = true;
             pontoAtual = 3;
-            collision.GetComponent<LixoMove>().alvo = this.transform;
+           
 
             score_manager.score_ += 1;
         }
@@ -90,7 +90,7 @@ public class PegarLixo : MonoBehaviour
             descendo = false;
             subindo = true;
             pontoAtual = 3;
-            collision.GetComponent<PeixeMove>().alvo = this.transform;
+           // collision.GetComponent<PeixeMove>().alvo = this.transform;
 
             score_manager.score_ -= 1;
         }

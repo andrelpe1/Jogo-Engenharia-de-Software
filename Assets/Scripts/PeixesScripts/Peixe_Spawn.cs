@@ -25,7 +25,7 @@ public class Peixe_Spawn : MonoBehaviour
         if (cooldown_ <= 0)
         {
             SpawnObstacle();
-            cooldown_ = (tempo - (score_manager.score_ / 10)); ;
+            cooldown_ = tempo;//(tempo - (score_manager.score_ / 10)); ;
         }
         else
         {
@@ -35,8 +35,6 @@ public class Peixe_Spawn : MonoBehaviour
 
     void SpawnObstacle()
     {
-        GameObject peixeDi = Instantiate(peixe, new Vector3(x, y, 0), Quaternion.identity);
-        peixeDi.GetComponent<PeixeMove>().alvo = GameObject.FindGameObjectWithTag("p3").transform;
-
+        GameObject peixeDi = Instantiate(peixe, new Vector3(x, Random.Range(-5, 5), 0), Quaternion.identity);
     }
 }

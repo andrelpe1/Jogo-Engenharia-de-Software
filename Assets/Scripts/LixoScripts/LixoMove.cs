@@ -1,10 +1,9 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class LixoMove : MonoBehaviour
 {
     [SerializeField] private float speed;
-    public Transform alvo;
-    public bool pegado = false;
     [SerializeField] private float tempoDeVida;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,9 +19,14 @@ public class LixoMove : MonoBehaviour
 
     private void MovimentoLixo()
     {
-        if (!pegado)
+        transform.position -= new Vector3(speed * Time.deltaTime, 0, 0);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
         {
-            transform.position = Vector2.MoveTowards(transform.position, alvo.position, speed * Time.deltaTime);
+            Destroy(collision.gameObject);
         }
     }
 }
