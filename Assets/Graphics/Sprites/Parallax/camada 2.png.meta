@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d070f7ca7ad99fe41af4f167281500eb
+guid: 258f21a0c13a5d64c8589dd2baf4bd0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7254875697291169793
-    second: FundoGames_0
+      213: 1179012490728331123
+    second: camada 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FundoGames_0
+      name: camada 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1280
-        height: 720
+        width: 330
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10097aa320f7ea460800000000000000
-      internalID: 7254875697291169793
+      spriteID: 3775c971d91bc5010800000000000000
+      internalID: 1179012490728331123
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FundoGames_0: 7254875697291169793
+      camada 2_0: 1179012490728331123
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
