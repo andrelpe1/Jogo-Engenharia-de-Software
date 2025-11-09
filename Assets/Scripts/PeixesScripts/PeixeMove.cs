@@ -4,17 +4,26 @@ public class PeixeMove : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float tempoDeVida;
+    private float tempoRestante;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Destroy(this.gameObject,tempoDeVida);
+        tempoRestante = tempoDeVida;
     }
 
     // Update is called once per frame
     void Update()
     {
-        MovimentoPeixe();
+        
+            MovimentoPeixe();
+            tempoRestante -= Time.deltaTime;
+
+            if (tempoRestante <= 0f)
+            {
+                Destroy(gameObject);
+            }
     }
+    
 
     private void MovimentoPeixe()
     {

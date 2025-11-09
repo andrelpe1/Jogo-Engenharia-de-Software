@@ -3,6 +3,7 @@ using UnityEngine.UI;
 public class Score_ManagerScript : MonoBehaviour
 {
     public Text pontuacao;
+    public Text total;
     public int score_= 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,6 +15,7 @@ public class Score_ManagerScript : MonoBehaviour
     void Update()
     {
         if (pontuacao != null)
-            pontuacao.text = "Score: "+score_.ToString();
+            pontuacao.text = "Pontos: "+score_.ToString();
+            total.text = "Sua pontuação foi: " + score_.ToString() + "/10";
     }
 }

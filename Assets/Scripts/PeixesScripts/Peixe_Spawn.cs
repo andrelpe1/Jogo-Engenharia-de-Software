@@ -18,6 +18,7 @@ public class Peixe_Spawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Cooldown();
     }
     void Cooldown()

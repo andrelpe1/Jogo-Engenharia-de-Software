@@ -4,14 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - p1
-  - p2
   - lixo
   - wall
   - peixe
   - Score
-  - p3
   - Moeda
+  - telaFim
   layers:
   - Default
   - TransparentFX

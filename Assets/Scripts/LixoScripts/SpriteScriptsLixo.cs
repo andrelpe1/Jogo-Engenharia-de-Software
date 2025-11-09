@@ -36,4 +36,6 @@ public class SpriteScriptsLixo : MonoBehaviour
             animator.speed = 0.5f;
         }
     }
+
+  
 }

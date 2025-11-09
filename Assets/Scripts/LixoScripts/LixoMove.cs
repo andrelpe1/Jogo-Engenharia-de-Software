@@ -5,16 +5,24 @@ public class LixoMove : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private float tempoDeVida;
+    private float tempoRestante;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Destroy(this.gameObject, tempoDeVida);
+        tempoRestante = tempoDeVida;
     }
 
     // Update is called once per frame
     void Update()
     {
-        MovimentoLixo();
+        
+            MovimentoLixo();
+            tempoRestante -= Time.deltaTime;
+
+            if (tempoRestante <= 0f)
+            {
+                Destroy(gameObject);
+            }
     }
 
     private void MovimentoLixo()
@@ -22,11 +30,5 @@ public class LixoMove : MonoBehaviour
         transform.position -= new Vector3(speed * Time.deltaTime, 0, 0);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Destroy(collision.gameObject);
-        }
-    }
+    
 }
