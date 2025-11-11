@@ -3,11 +3,15 @@ using UnityEngine;
 public class PeixeMove : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float velocidadeAnimacao;
     [SerializeField] private float tempoDeVida;
     private float tempoRestante;
+    private Animator animator;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        animator = GetComponent<Animator>();
+        animator.speed = velocidadeAnimacao;
         tempoRestante = tempoDeVida;
     }
 
