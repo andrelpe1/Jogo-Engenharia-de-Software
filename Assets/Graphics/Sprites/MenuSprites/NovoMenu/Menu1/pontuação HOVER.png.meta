@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: cd52a0468c43f3c489eadd5986e198d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3480546488303366177
+    second: "pontua\xE7\xE3o HOVER_0"
+  - first:
+      213: 9028832817159602665
+    second: "pontua\xE7\xE3o HOVER_1"
+  - first:
+      213: -8348700931334763537
+    second: "pontua\xE7\xE3o HOVER_2"
+  - first:
+      213: 7796465633191362855
+    second: "pontua\xE7\xE3o HOVER_3"
+  - first:
+      213: 829379885789844602
+    second: "pontua\xE7\xE3o HOVER_4"
+  - first:
+      213: 335472584110390761
+    second: "pontua\xE7\xE3o HOVER_5"
+  - first:
+      213: -4548552942962867620
+    second: "pontua\xE7\xE3o HOVER_6"
+  - first:
+      213: -7637315020731630229
+    second: "pontua\xE7\xE3o HOVER_7"
+  - first:
+      213: 1355799260940098030
+    second: "pontua\xE7\xE3o HOVER_8"
+  - first:
+      213: 6769644366791065808
+    second: "pontua\xE7\xE3o HOVER_9"
+  - first:
+      213: 5198910486920667330
+    second: "pontua\xE7\xE3o HOVER_10"
+  - first:
+      213: -860332608763471568
+    second: "pontua\xE7\xE3o HOVER_11"
+  - first:
+      213: 6644316268089965111
+    second: "pontua\xE7\xE3o HOVER_12"
+  - first:
+      213: 3218345450453409664
+    second: "pontua\xE7\xE3o HOVER_13"
+  - first:
+      213: 6021661381922186333
+    second: "pontua\xE7\xE3o HOVER_14"
+  - first:
+      213: 7333852055798303080
+    second: "pontua\xE7\xE3o HOVER_15"
+  - first:
+      213: 6854774448593733101
+    second: "pontua\xE7\xE3o HOVER_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "pontua\xE7\xE3o HOVER_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1203e8327926d4030800000000000000
+      internalID: 3480546488303366177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pontua\xE7\xE3o HOVER_1"
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e100334c9bdc4d70800000000000000
+      internalID: 9028832817159602665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3bfc26825dac6a428d4df11a016bbc8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":125.0,"y":22.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "pontua\xE7\xE3o HOVER_0": 3480546488303366177
+      "pontua\xE7\xE3o HOVER_1": 9028832817159602665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

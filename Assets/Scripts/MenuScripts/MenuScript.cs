@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,24 +11,16 @@ public class MenuScript : MonoBehaviour
     public GameObject menuConfig;
     public GameObject menuComoJogar;
     private GameObject armazenaVolta;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        armazenaVolta = menu_principal;
     }
-
-    // Update is called once per frame
     void Update()
     {
         
     }
 
-    public void play()
-    {
-       
-        SceneManager.LoadScene("JogoPeixeDesviar");
-    }
-
+    
     public void sair()
     {
         Application.Quit();
@@ -69,6 +62,10 @@ public class MenuScript : MonoBehaviour
 
     public void acessarConfiguracoes()
     {
+        if (armazenaVolta != menu_principal)
+        {
+           armazenaVolta.SetActive(false);
+        }
         menu_principal.SetActive(false);
         menuConfig.SetActive(true);
         armazenaVolta = menuConfig;
