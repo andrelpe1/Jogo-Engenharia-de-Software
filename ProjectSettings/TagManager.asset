@@ -10,6 +10,12 @@ TagManager:
   - Score
   - Moeda
   - telaFim
+  - p1
+  - Caixa
+  - Invertebrado
+  - Osseo
+  - Pulmao
+  - Predador
   layers:
   - Default
   - TransparentFX
