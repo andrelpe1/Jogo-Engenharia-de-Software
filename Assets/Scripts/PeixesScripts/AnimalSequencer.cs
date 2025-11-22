@@ -40,7 +40,15 @@ public class AnimalSequencer : MonoBehaviour
 
 
         currentAnimal = Instantiate(animalPrefabs[currentIndex], spawnPoint.position, Quaternion.identity);
-        Destroy(animalPrefabs[currentIndex], 1);
+        AudioSource src = currentAnimal.GetComponent<AudioSource>();
+        NarracaoAnimais voice = currentAnimal.GetComponent<NarracaoAnimais>();
+
+
+        if (src != null && voice != null && voice.narracao != null)
+        {
+            src.PlayOneShot(voice.narracao);
+        }
+
         currentIndex++;
 
     }
