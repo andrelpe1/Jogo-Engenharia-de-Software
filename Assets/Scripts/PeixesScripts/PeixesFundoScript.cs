@@ -1,18 +1,17 @@
-using Unity.VisualScripting;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Peixe_Spawn : MonoBehaviour
+public class PeixesFundoScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float cooldown_;
     [SerializeField] private float tempo;
 
     [SerializeField] private float x, y;
-    [SerializeField] private GameObject peixe;
-    [SerializeField] private Score_ManagerScript score_manager;
+    [SerializeField] private List<GameObject> peixes;
+    private int numPeixe=9; 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -36,6 +35,11 @@ public class Peixe_Spawn : MonoBehaviour
 
     void SpawnObstacle()
     {
-        GameObject peixeDi = Instantiate(peixe, new Vector3(x, Random.Range(-4.5f, 4.5f), 0), Quaternion.identity);
+        if (numPeixe == 0)
+        {
+            numPeixe = 9;
+        }
+        GameObject peixeDi = Instantiate(peixes[numPeixe], new Vector3(x, Random.Range(-4.2f, 4.4f), 0), Quaternion.identity);
+        numPeixe--;
     }
 }

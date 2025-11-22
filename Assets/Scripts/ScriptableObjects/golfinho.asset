@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54e88e31ca5b794ca936ad93a37ebe7, type: 3}
+  m_Name: golfinho
+  m_EditorClassIdentifier: Assembly-CSharp::Animall
+  animal_icon: {fileID: -8916702309209947273, guid: 675473c6ede8daf45ae6c6837ebb7b63, type: 3}
+  animal_animation: {fileID: 923414780518089288, guid: 675473c6ede8daf45ae6c6837ebb7b63, type: 3}
+  animal_name: golfinho

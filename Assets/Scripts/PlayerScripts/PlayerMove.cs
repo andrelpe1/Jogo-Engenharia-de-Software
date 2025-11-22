@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
@@ -10,6 +11,9 @@ public class PlayerMove : MonoBehaviour
     public GameObject fimDeJogo;
     public GameObject uIjogo;
     public Score_ManagerScript score_manager;
+
+  
+    public int health =3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,11 +43,22 @@ public class PlayerMove : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("lixo"))
         {
-            this.enabled = false;
-            Time.timeScale = 0;
-            uIjogo.SetActive(false);
-            fimDeJogo.SetActive(true);
+            health--;
+            if(health == 0)
+            {
+                this.enabled = false;
+                PausarAposMorte();
+                Time.timeScale = 0;
+                uIjogo.SetActive(false);
+                fimDeJogo.SetActive(true);
+            }
             PlayerPrefs.SetInt("pontuacao_1", score_manager.score_);
         }
+    }
+
+    IEnumerator PausarAposMorte()
+    {
+        yield return null; // espera 1 frame
+       
     }
 }

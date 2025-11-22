@@ -10,6 +10,9 @@ TagManager:
   - Score
   - Moeda
   - telaFim
+  - p1
+  - Name
+  - vida
   layers:
   - Default
   - TransparentFX

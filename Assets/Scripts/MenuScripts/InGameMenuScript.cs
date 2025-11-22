@@ -1,14 +1,18 @@
+using NUnit.Framework;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class InGameMenuScript : MonoBehaviour
 {
     [SerializeField] private GameObject menu;
     [SerializeField] private GameObject retornarJogo;
     [SerializeField] private GameObject gameOver;
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       
+        
         
     }
 
@@ -18,9 +22,22 @@ public class InGameMenuScript : MonoBehaviour
         
     }
 
+    public void ajuda()
+    {
+        if (Time.timeScale == 1)
+        {
+            Time.timeScale = 0.5f;
+        }else if((Time.timeScale == 0.5f) || (Time.timeScale == 0))
+        {
+            Time.timeScale = 1;
+        }
+
+        
+    }
     public void voltarJogo()
     {
-        Time.timeScale = 1;
+
+        ajuda();
         menu.SetActive(false);
         retornarJogo.SetActive(true);
     }

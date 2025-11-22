@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: fa51111664acf084cb3577d065ec46b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -26596651844382465
+    second: camada 6 (1)_0
+  - first:
+      213: -4524877159490249711
+    second: camada 6 (1)_1
+  - first:
+      213: 6193726835082951206
+    second: camada 6 (1)_2
+  - first:
+      213: -8059163473229188770
+    second: camada 6 (1)_3
+  - first:
+      213: -2818615529322914202
+    second: camada 6 (1)_4
+  - first:
+      213: 208964336327987194
+    second: camada 6 (1)_5
+  - first:
+      213: 2262079733730107427
+    second: camada 6 (1)_6
+  - first:
+      213: -5636925901080062393
+    second: camada 6 (1)_7
+  - first:
+      213: -3958227602471956785
+    second: camada 6 (1)_8
+  - first:
+      213: -4580629440509209566
+    second: camada 6 (1)_9
+  - first:
+      213: 954136775069161085
+    second: camada 6 (1)_10
+  - first:
+      213: -1360141324072852716
+    second: camada 6 (1)_11
+  - first:
+      213: 1762772542954907895
+    second: camada 6 (1)_12
+  - first:
+      213: 7697934939978740556
+    second: camada 6 (1)_13
+  - first:
+      213: -2863537274160176762
+    second: camada 6 (1)_14
+  - first:
+      213: -2856127624374534243
+    second: camada 6 (1)_15
+  - first:
+      213: -1638105589063477887
+    second: camada 6 (1)_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: camada 6 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 157
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0d99e6c7281aff0800000000000000
+      internalID: -26596651844382465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 165
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c1e4082386431c0800000000000000
+      internalID: -4524877159490249711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 162
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a7ce0adb984f550800000000000000
+      internalID: 6193726835082951206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 160
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51fe573589182090800000000000000
+      internalID: -8059163473229188770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 134
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ede481c1442e8d0800000000000000
+      internalID: -2818615529322914202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 121
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff0e8de4f366e200800000000000000
+      internalID: 208964336327987194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 130
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320e7966885846f10800000000000000
+      internalID: 2262079733730107427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 122
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7469ce832cd95c1b0800000000000000
+      internalID: -5636925901080062393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce438697fc8119c0800000000000000
+      internalID: -3958227602471956785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 90
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22490c60bc55e60c0800000000000000
+      internalID: -4580629440509209566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 83
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7652297756cd3d00800000000000000
+      internalID: 954136775069161085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 66
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413ee4e0caecf1de0800000000000000
+      internalID: -1360141324072852716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8a3aac940a67810800000000000000
+      internalID: 1762772542954907895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 27
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c433081ea0f84da60800000000000000
+      internalID: 7697934939978740556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 41
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681a794550ca248d0800000000000000
+      internalID: -2863537274160176762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 24
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fb9fbde0ffc58d0800000000000000
+      internalID: -2856127624374534243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: camada 6 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 16
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1851a4355a74449e0800000000000000
+      internalID: -1638105589063477887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      camada 6 (1)_0: -26596651844382465
+      camada 6 (1)_1: -4524877159490249711
+      camada 6 (1)_10: 954136775069161085
+      camada 6 (1)_11: -1360141324072852716
+      camada 6 (1)_12: 1762772542954907895
+      camada 6 (1)_13: 7697934939978740556
+      camada 6 (1)_14: -2863537274160176762
+      camada 6 (1)_15: -2856127624374534243
+      camada 6 (1)_16: -1638105589063477887
+      camada 6 (1)_2: 6193726835082951206
+      camada 6 (1)_3: -8059163473229188770
+      camada 6 (1)_4: -2818615529322914202
+      camada 6 (1)_5: 208964336327987194
+      camada 6 (1)_6: 2262079733730107427
+      camada 6 (1)_7: -5636925901080062393
+      camada 6 (1)_8: -3958227602471956785
+      camada 6 (1)_9: -4580629440509209566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
