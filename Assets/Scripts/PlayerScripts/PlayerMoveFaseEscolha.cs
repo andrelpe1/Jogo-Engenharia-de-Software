@@ -6,11 +6,13 @@ public class PlayerMoveFaseEscolha : MonoBehaviour
     public float speed = 2f;
     public static int pontuacao = 0;
     public string tipoAnimal;
+    public ScoreFase2 score_manager;
     private Rigidbody2D rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        score_manager = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreFase2>();
     }
 
     void Update()
@@ -38,12 +40,10 @@ public class PlayerMoveFaseEscolha : MonoBehaviour
             {
                 if (caixa.tipoAceito == tipoAnimal)
                 {
-                    pontuacao += 1;
-                    Debug.Log("Pontuação: " + pontuacao);
+                    score_manager.score_2 += 1;
                 }
+                
             }
-
-            Debug.Log("Pontuação: " + pontuacao);
 
             Destroy(this.gameObject, 0);
         }

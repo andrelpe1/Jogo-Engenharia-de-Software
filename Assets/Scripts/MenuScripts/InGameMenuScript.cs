@@ -44,4 +44,11 @@ public class InGameMenuScript : MonoBehaviour
         gameOver.SetActive(false);
         SceneManager.LoadScene("JogoPeixeDesviar");
     }
+
+    public void JogarNovamenteFase2()
+    {
+        Time.timeScale = 1;
+        gameOver.SetActive(false);
+        SceneManager.LoadScene("JogoDividirAniamis");
+    }
 }
