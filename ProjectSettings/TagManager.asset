@@ -3,25 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - lixo
-  - wall
-  - peixe
-  - Score
-  - Moeda
-  - telaFim
-  - p1
-<<<<<<< Updated upstream
-  - Name
-  - vida
-=======
-  - Caixa
-  - Invertebrado
-  - Osseo
-  - Pulmao
-  - Predador
-  - Tocar
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
