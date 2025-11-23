@@ -1,6 +1,9 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MenuScript : MonoBehaviour
 {
@@ -11,6 +14,9 @@ public class MenuScript : MonoBehaviour
     public GameObject menuConfig;
     public GameObject menuComoJogar;
     private GameObject armazenaVolta;
+
+
+   
     void Start()
     {
         armazenaVolta = menu_principal;
@@ -71,5 +77,6 @@ public class MenuScript : MonoBehaviour
         armazenaVolta = menuConfig;
     }
 
+   
 
 }

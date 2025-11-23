@@ -10,6 +10,7 @@ public class InGameMenuScript : MonoBehaviour
     [SerializeField] private GameObject gameOver;
    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+<<<<<<< Updated upstream
     void Start()
     {
         
@@ -21,6 +22,9 @@ public class InGameMenuScript : MonoBehaviour
     {
         
     }
+=======
+    
+>>>>>>> Stashed changes
 
     public void ajuda()
     {
@@ -57,8 +61,20 @@ public class InGameMenuScript : MonoBehaviour
 
     public void JogarNovamente()
     {
-        Time.timeScale = 1;
         gameOver.SetActive(false);
+        Time.timeScale = 1;
         SceneManager.LoadScene("JogoPeixeDesviar");
+        
     }
+<<<<<<< Updated upstream
+=======
+
+    public void JogarNovamenteFase2()
+    {
+        
+        gameOver.SetActive(false);
+        Time.timeScale = 1;
+        SceneManager.LoadScene("JogoDividirAnimais");
+    }
+>>>>>>> Stashed changes
 }

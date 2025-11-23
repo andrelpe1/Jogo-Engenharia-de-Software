@@ -11,8 +11,17 @@ TagManager:
   - Moeda
   - telaFim
   - p1
+<<<<<<< Updated upstream
   - Name
   - vida
+=======
+  - Caixa
+  - Invertebrado
+  - Osseo
+  - Pulmao
+  - Predador
+  - Tocar
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

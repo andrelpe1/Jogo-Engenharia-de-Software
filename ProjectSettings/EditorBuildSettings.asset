@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 837ac17c62373af48999187dd443fa26
   - enabled: 1
+    path: Assets/Scenes/Tutorial-Fase1.unity
+    guid: 770c948c8aae48743989ba0ae2ef6180
+  - enabled: 1
     path: Assets/Scenes/JogoPeixeDesviar.unity
     guid: c359ab6f4ae566e47ab9ac27fb65e54b
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/JogoDividirAnimais.unity
+    guid: bfff2a3f6c114d741a025800f610a157
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

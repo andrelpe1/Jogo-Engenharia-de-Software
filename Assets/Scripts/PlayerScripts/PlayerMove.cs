@@ -11,9 +11,15 @@ public class PlayerMove : MonoBehaviour
     public GameObject fimDeJogo;
     public GameObject uIjogo;
     public Score_ManagerScript score_manager;
+<<<<<<< Updated upstream
 
   
     public int health =3;
+=======
+    public AudioSource dano;
+
+    public int health = 3;
+>>>>>>> Stashed changes
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +27,7 @@ public class PlayerMove : MonoBehaviour
         animator_ = GetComponent<Animator>();
         speed_anima = animator_.speed;
         score_manager = GameObject.FindGameObjectWithTag("Score").GetComponent<Score_ManagerScript>();
+       
     }
 
     // Update is called once per frame
@@ -28,8 +35,8 @@ public class PlayerMove : MonoBehaviour
     {
         
             WasdMove();
-         
-  
+
+        DamageBlink();
     }
 
     private void WasdMove()
@@ -44,6 +51,7 @@ public class PlayerMove : MonoBehaviour
         if (collision.gameObject.CompareTag("lixo"))
         {
             health--;
+<<<<<<< Updated upstream
             if(health == 0)
             {
                 this.enabled = false;
@@ -53,6 +61,33 @@ public class PlayerMove : MonoBehaviour
                 fimDeJogo.SetActive(true);
             }
             PlayerPrefs.SetInt("pontuacao_1", score_manager.score_);
+=======
+            dano.Play();
+            gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+            if (health == 0)
+            {
+                this.enabled = false;
+                uIjogo.SetActive(false);
+                fimDeJogo.SetActive(true);
+                Time.timeScale = 0;
+                PlayerPrefs.SetInt("PontTemporaria", score_manager.score_);
+                PlayerPrefs.SetInt("VidaTemporaria", health);
+              
+                
+            }
+        }
+    }
+
+    void DamageBlink()
+    {
+        if(gameObject.GetComponent<SpriteRenderer>().color == Color.white)
+        {
+
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(gameObject.GetComponent<SpriteRenderer>().color, Color.white, 5 * Time.deltaTime);
+>>>>>>> Stashed changes
         }
     }
 
