@@ -36,6 +36,6 @@ public class Peixe_Spawn : MonoBehaviour
 
     void SpawnObstacle()
     {
-        GameObject peixeDi = Instantiate(peixe, new Vector3(x, Random.Range(-4.5f, 4.5f), 0), Quaternion.identity);
+        GameObject peixeDi = Instantiate(peixe, new Vector3(x, Random.Range(-5, 5), 0), Quaternion.identity);
     }
 }

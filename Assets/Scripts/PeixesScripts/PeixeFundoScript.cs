@@ -5,7 +5,7 @@ using UnityEngine;
 public class PeixeFundoScript : MonoBehaviour
 {
     public List<GameObject> peixes;
-    public int pos = 9;
+    private int pos = 9;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private float cooldown_;
     [SerializeField] private float tempo;
@@ -41,7 +41,7 @@ public class PeixeFundoScript : MonoBehaviour
         {
             pos = 9;
         }
-        GameObject peixeDi = Instantiate(peixes[pos], new Vector3(x, Random.Range(-4.2f, 4.3f), 0), Quaternion.identity);
+        GameObject peixeDi = Instantiate(peixes[pos], new Vector3(x, Random.Range(-4.2f, 4.02f), 0), Quaternion.identity);
         pos--;
     }
 }

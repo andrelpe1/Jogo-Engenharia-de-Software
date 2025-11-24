@@ -1,4 +1,4 @@
-using UnityEditor.Experimental.GraphView;
+
 using UnityEngine;
 
 public class comecarJogo : MonoBehaviour
@@ -33,7 +33,7 @@ public class comecarJogo : MonoBehaviour
         }else if((vida == 1) && (pontos == 10))
         {
             resultado = "bom";
-        }else if ((vida == 0) && (pontos < 10)&& (pontos>6))
+        }else if ((vida == 0) && (pontos < 10)&& (pontos>=6))
         {
             resultado = "mediano";
         }

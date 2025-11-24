@@ -1,4 +1,3 @@
-using System.Collections;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
@@ -11,15 +10,9 @@ public class PlayerMove : MonoBehaviour
     public GameObject fimDeJogo;
     public GameObject uIjogo;
     public Score_ManagerScript score_manager;
-<<<<<<< Updated upstream
-
-  
-    public int health =3;
-=======
     public AudioSource dano;
 
     public int health = 3;
->>>>>>> Stashed changes
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -51,17 +44,6 @@ public class PlayerMove : MonoBehaviour
         if (collision.gameObject.CompareTag("lixo"))
         {
             health--;
-<<<<<<< Updated upstream
-            if(health == 0)
-            {
-                this.enabled = false;
-                PausarAposMorte();
-                Time.timeScale = 0;
-                uIjogo.SetActive(false);
-                fimDeJogo.SetActive(true);
-            }
-            PlayerPrefs.SetInt("pontuacao_1", score_manager.score_);
-=======
             dano.Play();
             gameObject.GetComponent<SpriteRenderer>().color = Color.red;
             if (health == 0)
@@ -87,13 +69,6 @@ public class PlayerMove : MonoBehaviour
         else
         {
             gameObject.GetComponent<SpriteRenderer>().color = Color.Lerp(gameObject.GetComponent<SpriteRenderer>().color, Color.white, 5 * Time.deltaTime);
->>>>>>> Stashed changes
         }
-    }
-
-    IEnumerator PausarAposMorte()
-    {
-        yield return null; // espera 1 frame
-       
     }
 }

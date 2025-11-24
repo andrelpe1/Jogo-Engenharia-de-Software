@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - lixo
+  - wall
+  - peixe
+  - Score
+  - Moeda
+  - telaFim
+  - p1
+  - Caixa
+  - Invertebrado
+  - Osseo
+  - Pulmao
+  - Predador
+  - Tocar
   layers:
   - Default
   - TransparentFX
