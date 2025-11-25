@@ -21,10 +21,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Overlay2D
   - Water
   - UI
-  - 
+  - OverLayIgnoreApp
   - 
   - 
   - 
@@ -53,6 +53,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 4139976775
     locked: 0
   m_RenderingLayers:
   - Default

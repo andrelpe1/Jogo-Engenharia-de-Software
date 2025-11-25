@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2489765299604041651}
   - component: {fileID: 2266123373294827336}
   - component: {fileID: 2319467766608660470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Moeda
   m_TagString: Moeda
   m_Icon: {fileID: 0}
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 6012852202199183761}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.27863175, y: -2.8975427, z: 0.016479738}
-  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_LocalPosition: {x: 0.3478, y: -2.8975427, z: 0.016479738}
+  m_LocalScale: {x: 7.5938544, y: 6.956378, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -57,7 +57,7 @@ SpriteRenderer:
   m_SmallMeshCulling: 1
   m_ForceMeshLod: -1
   m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8150570140204985359, guid: ca86ca01dda858543b0bf169464680cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   velocidadeAnimacao: 0.5
-  tempoDeVida: 6
+  tempoDeVida: 8
 --- !u!95 &2319467766608660470
 Animator:
   serializedVersion: 7
