@@ -17,6 +17,11 @@ public class MenuTutorial : MonoBehaviour
         SceneManager.LoadScene("JogoPeixeDesviar");
     }
 
+    public void iniciar2()
+    {
+        SceneManager.LoadScene("JogoDividirAnimais");
+    }
+
     public void enviarNome()
     {
         if (campo_nome.text != "")

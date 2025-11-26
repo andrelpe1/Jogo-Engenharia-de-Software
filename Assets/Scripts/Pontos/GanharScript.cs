@@ -26,9 +26,11 @@ public class GanharScript : MonoBehaviour
         if (score_count == 10)
         {
             Time.timeScale = 0;
-            PlayerPrefs.SetInt("VidaTemporaria",vida);
-            PlayerPrefs.SetInt("PontTemporaria", score_count);
+           
             ganharTela.SetActive(true);
         }
+
+        PlayerPrefs.SetInt("VidaTemporaria", vida);
+        PlayerPrefs.SetInt("PontTemporaria", score_count);
     }
 }

@@ -17,6 +17,9 @@ TagManager:
   - Pulmao
   - Predador
   - Tocar
+  - Peixe
+  - SomCerto
+  - SomErrado
   layers:
   - Default
   - TransparentFX

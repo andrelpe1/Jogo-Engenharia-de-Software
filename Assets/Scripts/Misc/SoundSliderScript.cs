@@ -12,14 +12,15 @@ public class SoundSliderSciript : MonoBehaviour
     public AudioMixer mixer;
     public Slider slider_narracao;
 
-    public Dropdown resolution_dropdown;
+    [SerializeField] private Dropdown resolution_dropdown;
+    [SerializeField] private Dropdown window_dropdown;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
 
         slide_sfx.value = PlayerPrefs.GetFloat("Audio1", 1f);
-        slide_volume.value = PlayerPrefs.GetFloat("Audio2", 1f);
+        slide_volume.value = PlayerPrefs.GetFloat("Audio2", 0.2f);
         slider_narracao.value = PlayerPrefs.GetFloat("AudioNarracao", 1f);
        
         AtualizarVolumes();
@@ -38,6 +39,7 @@ public class SoundSliderSciript : MonoBehaviour
         PlayerPrefs.SetFloat("AudioNarracao",slider_narracao.value);
         changeResolution();
         AtualizarVolumes();
+        ModoJanela();
     }
 
     private void AtualizarVolumes()
@@ -69,4 +71,20 @@ public class SoundSliderSciript : MonoBehaviour
             Screen.SetResolution(900, 600, true);
         }
     }
+
+    public void ModoJanela()
+    {
+        if (window_dropdown.value == 0)
+        {
+            Screen.fullScreen = true;
+        }else if (window_dropdown.value == 1)
+        {
+            Screen.fullScreen = false; // Sai do fullscreen
+            Screen.SetResolution(1280, 720, false);
+        }
+             // largura, altura, janela
+    }
+
+    
+
 }

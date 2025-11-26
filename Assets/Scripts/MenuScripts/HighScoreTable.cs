@@ -26,16 +26,9 @@ public class HighScoreTable : MonoBehaviour
         }
         
 
-        //entryContainer = transform.Find("HighScoreEntryContainer");
-       // entryTemplate = entryContainer.Find("Templatedados");
-
         entryTemplate.gameObject.SetActive(false);
 
-        /*highScoreEntryList = new List<HighScoreEntry>()
-        {
-            new HighScoreEntry{name ="Flaneua", score= 3, vida = 2, resultado="bom"},
-            new HighScoreEntry{name ="UUU", score= 5, vida = 3, resultado="ruim"}
-        };*/
+        
 
         string jsonString = PlayerPrefs.GetString("highscoreTable","");
 
@@ -62,11 +55,7 @@ public class HighScoreTable : MonoBehaviour
             CreateHighScoreEntryTransform(highscoreEntry, entryContainer, highscoreEntryTransformList);
         }
 
-        /*Highscores highscores = new Highscores { highscoreEntryList = highScoreEntryList };
-        string json = JsonUtility.ToJson(highscores);
-        PlayerPrefs.SetString("highscoreTable",json);
-        PlayerPrefs.Save();
-        PlayerPrefs.GetString("highScoreTable");*/
+ 
         
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created

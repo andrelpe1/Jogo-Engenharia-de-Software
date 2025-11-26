@@ -36,6 +36,12 @@ public class InGameMenuScript : MonoBehaviour
         
     }
 
+    public void ProximoTutorial()
+    {
+        
+        SceneManager.LoadScene("Tutorial2");
+    }
+
     public void JogarNovamenteFase2()
     {
         

@@ -41,7 +41,7 @@ public class PeixeFundoScript : MonoBehaviour
         {
             pos = 9;
         }
-        GameObject peixeDi = Instantiate(peixes[pos], new Vector3(x, Random.Range(-4.2f, 4.02f), 0), Quaternion.identity);
+        GameObject peixeDi = Instantiate(peixes[pos], new Vector3(x, Random.Range(-4.05f, 4.02f), 0), Quaternion.identity);
         pos--;
     }
 }

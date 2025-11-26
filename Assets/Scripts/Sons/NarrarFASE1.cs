@@ -8,7 +8,7 @@ public class NarrarFASE1 : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Tocar"))
         {
-            Debug.Log("Passou no ponto!");
+            
             collision.gameObject.GetComponent<AudioSource>().Play();
 
         }

@@ -10,9 +10,11 @@ public class MenuScript : MonoBehaviour
     public GameObject menu_principal;
     public GameObject menuSobre;
     public GameObject menuPontuacao;
+    public GameObject menuPontuacao2;
     public GameObject menuSuporte;
     public GameObject menuConfig;
     public GameObject menuComoJogar;
+    public GameObject menuComoJogar2;
     private GameObject armazenaVolta;
 
 
@@ -26,7 +28,30 @@ public class MenuScript : MonoBehaviour
         
     }
 
-    
+    public void comoJogarProximo()
+    {
+        menuComoJogar.SetActive(false);
+        menuComoJogar2.SetActive(true);
+    }
+
+    public void pontuacaoProximo()
+    {
+        menuPontuacao.SetActive(false);
+        menuPontuacao2.SetActive(true);
+    }
+    public void pontuacaoVoltar()
+    {
+        menuPontuacao.SetActive(true);
+        menuPontuacao2.SetActive(false);
+        
+    }
+
+    public void comoJogarVoltar()
+    {
+        menuComoJogar.SetActive(true);
+        menuComoJogar2.SetActive(false);
+        
+    }
     public void sair()
     {
         Application.Quit();

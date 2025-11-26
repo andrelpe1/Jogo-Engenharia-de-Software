@@ -7,7 +7,7 @@ public class AnimalSequencer : MonoBehaviour
     public List<GameObject> animalPrefabs;  // lista com os prefabs dos peixes
     public Transform spawnPoint;            // posição inicial de spawn
     private int currentIndex = 0;
-    private GameObject currentAnimal;
+    public GameObject currentAnimal;
     public GameObject telaFim;
     public bool jogoAcabou = false;
 
@@ -33,6 +33,7 @@ public class AnimalSequencer : MonoBehaviour
 
         if(currentIndex >= animalPrefabs.Count)
         {
+           
             telaFim.SetActive(true);
             jogoAcabou = true;
             return;
@@ -40,14 +41,11 @@ public class AnimalSequencer : MonoBehaviour
 
 
         currentAnimal = Instantiate(animalPrefabs[currentIndex], spawnPoint.position, Quaternion.identity);
-        AudioSource src = currentAnimal.GetComponent<AudioSource>();
-        NarracaoAnimais voice = currentAnimal.GetComponent<NarracaoAnimais>();
+        
+        
 
 
-        if (src != null && voice != null && voice.narracao != null)
-        {
-            src.PlayOneShot(voice.narracao);
-        }
+        
 
         currentIndex++;
 

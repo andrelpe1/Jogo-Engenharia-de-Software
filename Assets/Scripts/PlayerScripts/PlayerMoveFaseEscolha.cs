@@ -9,6 +9,10 @@ public class PlayerMoveFaseEscolha : MonoBehaviour
     public ScoreFase2 score_manager;
     private Rigidbody2D rb;
 
+    private AudioSource som1;
+    private AudioSource som2;
+
+    public Color cor_animal;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -28,6 +32,8 @@ public class PlayerMoveFaseEscolha : MonoBehaviour
 
 
         score_manager = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreFase2>();
+        som1 = GameObject.FindGameObjectWithTag("SomCerto").GetComponent<AudioSource>();
+        som2 = GameObject.FindGameObjectWithTag("SomErrado").GetComponent<AudioSource>();
     }
 
     void Update()
@@ -56,10 +62,17 @@ public class PlayerMoveFaseEscolha : MonoBehaviour
                 if (caixa.tipoAceito == tipoAnimal)
                 {
                     score_manager.score_2 += 1;
+                    som1.Play();
                 }
-                
-            }
+                else
+                {
+                    som2.Play();
+                }
 
+                    
+                    
+            }
+            GetComponent<AleatorizarNome>().DestruirAntigos();
             Destroy(this.gameObject, 0);
         }
     }
